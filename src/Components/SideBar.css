@@ -1,0 +1,22 @@
+
+#title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 26px; 
+  color: #151875;
+  text-decoration: underline;
+}
+.filter,li{
+list-style: none;
+
+}
+.input-search-icon{
+  margin-left: -11%;
+
+}
+#flexCheckDefault1{
+  color: palevioletred;
+  
+}

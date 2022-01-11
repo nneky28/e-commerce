@@ -1,0 +1,45 @@
+
+.search-input {
+  height: 1.5rem;
+  font: 1rem;
+  border: 1px solid #e7e6ef;
+  box-sizing: border-box; 
+ 
+}
+.search-input1{
+  width: 40%;
+  height: 1.5rem;
+  font: 1rem;
+  border: 1px solid #e7e6ef;
+  box-sizing: border-box;
+}
+.search-text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* margin-right:10px ; */
+  color: #3f509e; 
+   border: none;
+} 
+.search-right .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 26px; 
+  color: #151875;
+  margin-bottom: 0;
+}
+.search-right .stat {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px; 
+  color: #8a8fb9;
+}
+.search-div3{
+  margin-right: 2%;
+}

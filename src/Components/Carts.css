@@ -1,0 +1,30 @@
+.cart-img{
+  width: 83px;
+  height: 87px;
+}
+.shopping-div {
+  margin-bottom: 100px;
+}
+
+.shopping-cart {
+  margin-top: 100px;
+}
+
+.empty-cart {
+  margin: 30px 0px;
+}
+
+.clear-cart-btn {
+  float: none;
+  height: 39px;
+  width: 134px;
+}
+
+.update-cart-btn {
+  float: none;
+  height: 39px;
+  width: 134px;
+  /* margin-top: 20px; */
+}
+
+

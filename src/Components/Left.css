@@ -1,0 +1,25 @@
+.card1{
+  width: 100%;
+  margin-left: -20%;
+  border: 1px solid #eee;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+  .card1{
+    width: 90%;
+    margin-left: 5%;
+  
+  }
+
+}
+.card-img-top{
+  height: 50%;
+}
+@media only screen and (max-width: 768px) {
+ 
+  .card-img-top{
+    width: 100%;
+    margin-bottom: -15%;
+  }
+}

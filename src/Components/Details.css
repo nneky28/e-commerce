@@ -1,0 +1,42 @@
+.car4{
+  height:30vh;
+  background:hsla(0, 0%, 77%, 1);
+}
+@media only screen and (max-width: 768px) {
+  .car4 {
+    height: 130%;
+    width: 95%;
+   
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .card-img {
+    margin-left:-1%;
+  }
+}
+.cont{
+margin-left: 5%;
+}
+@media only screen and (max-width: 768px) {
+  .cont{
+    margin-left:15%;
+  }
+}
+.text{
+  margin-left: 5%;
+}
+@media only screen and (max-width: 768px) {
+  .text{
+    margin-left:15%;
+  }
+}
+
+.imaj{
+  width: 95%;
+  height: 20vh;
+}
+.cad{
+  object-fit: contain;
+}

@@ -1,0 +1,127 @@
+.img-top{
+  width: 100%;
+}
+.inputform{
+  height: 2rem;
+  border: 1px solid hsla(240, 26%, 79%, 1);
+}
+
+#search{
+  Font :Josefin Sans;
+  font-Size :22px ;
+  line-height:  25.78px;
+  color: hsla(238, 70%, 27%, 1);
+
+}
+.input-search-icon{
+  margin-left: -14%;
+}
+.btn-md{
+background: #f939bf;
+color: #fff;
+border-radius: 3px;
+padding: 2px 15px;
+}
+.tag{
+font-family:Josefin Sans;
+font-Size: 14px;
+Line-height: 16.41px;
+color: hsla(229, 43%, 43%, 1);
+
+}
+.top{
+  margin-left: -13%;
+  width: 90%;
+}
+
+.tag1{
+  font-family:Josefin Sans;
+  font-Size: 14px;
+  Line-height: 16.41px;
+  color: hsla(229, 43%, 43%, 1);
+  margin-left: -34%;
+  }
+
+
+@media only screen and (max-width: 768px) {
+  .tag1 {
+    text-align: center;
+   
+  }
+}
+.title{
+font-family:Lato;
+font-Weight: 600;
+font-Size: 14px;
+Line-height: 16.8px;
+/* text-align: Center; */
+text-decoration: none;
+}
+
+.price{
+  font-family:Lato;
+  font-Weight: 600;
+  font-Size: 12px;
+  Line-height: 16.8px;
+  /* text-align: Center; */
+  }
+
+  .card-img{
+    border: 1px solid #E5E5E5;
+    background: #E5E5E5;
+  }
+  .body{
+      border: 1px solid #eee;
+      box-shadow: 0px 0px 25px 10px #F6F4FD;
+      width: 16%;
+      height: 35%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .body {
+      width: 25%;
+     
+    }
+  }
+.btn{
+  background: hsla(315, 100%, 95%, 1);
+  color: hsla(229, 43%, 43%, 1);
+  border-radius: 3px;
+  padding: 2px 15px;
+}
+.sit{
+font-Weight :900;
+font-Size :30px;
+Line-height: 35.16px;
+color: hsla(238, 70%, 27%, 1);
+
+}
+.lorem{
+font-Weight: 400;
+font-Size: 16px;
+Line-height: 25.6px;
+color: hsla(234, 25%, 63%, 1);
+
+}
+.more{
+ font-Weight: 600;
+font-Size: 18px;
+Line-height: 21.6px;
+color: hsla(238, 70%, 27%, 1);
+}
+
+.dot{
+  font-Weight: 600;
+  font-Size: 68px;
+  color: hsla(318, 94%, 60%, 1);
+}
+.desc {
+  padding: 42px 39px;
+  border-left: 3px solid #f939bf;
+  font-style: italic;
+  line-height: 30px;
+  font-size: 18px;
+  margin: 41px 0px 42px;
+  background-color: #f7fafd;
+  color: hsla(234, 25%, 63%, 1);
+}

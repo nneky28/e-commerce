@@ -1,0 +1,73 @@
+.footer {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8a8fb9;
+  background: #eeeffb;
+  padding: 3rem 0;
+}
+.footer .title {
+  font-family: Josefin Sans;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.foot{
+  font-size: 22px;
+  line-height: 26px;
+  color: hsla(0, 0%, 0%, 1);
+
+}
+.footer-logo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 45px;
+  color: #000000;
+}
+.footer-contactus {
+  background: #ffffff;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+.footer .button {
+  background: #fb2d86;
+  border-radius: 3px;
+  color: #eeeffb;
+  padding: 7.5px 25px;
+  border: 1px solid #fb2e86;
+ 
+}
+.bottom{
+  margin-left: -14%;
+}
+@media only screen and (max-width: 768px) {
+  .bottom {
+ margin-left: 10%;
+ margin-top: 5%;
+  }
+}
+.input {
+  padding: 5% 30%;
+  border:1px solid #eee;
+}
+
+.last-row {
+  text-align: center;
+  background: #e7e4f8;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 1rem 0;
+}
+.last-row p {
+  padding: 0;
+  margin: 0;
+}
+.last-row i {
+  margin-right: 1rem;
+}

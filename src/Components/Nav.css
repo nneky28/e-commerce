@@ -1,0 +1,40 @@
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.head1{
+  background-color: #7E33E0 !important;
+  padding: 0;
+
+}
+.anc{
+  color: #fff !important;
+
+}
+
+.ul1{
+  margin-left: 417px; 
+
+}
+.navbar-brand-b{
+  color: #0D0E43 !important;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* margin-right: 94px; */
+  overflow-x: hidden;
+  
+}
+.btd{
+  background: hsla(318, 94%, 60%, 1);
+  border: 1px solid hsla(318, 94%, 60%, 1);
+  padding: 1px 14px;
+  border-radius: 3px;
+}
