@@ -10,7 +10,7 @@ import Center from "../Components/Center";
 
 function ShopLeft({ inputHandle }) {
   const [products, setProducts] = useState([]);
-  const { payload, setPayload } = useContext(userContext);
+  // const { payload, setPayload } = useContext(userContext);
   // const {updatedFavourite, setUpdatedFavourite}=useContext(userContext);
 
   const Product = () => {
@@ -43,6 +43,19 @@ function ShopLeft({ inputHandle }) {
     }
   };
 
+  const brandFilter = (e) => {
+    if (e.target.checked) {
+      fetch(`http://127.0.0.1:2000/api/brands/${e.target.value}`)
+        .then((response) => response.json())
+        .then((filt) => {
+          setProducts(filt);
+          console.log("hello", filt);
+        });
+    } else {
+      Product();
+    }
+  };
+
   return (
     <div>
       <Nav />
@@ -51,7 +64,9 @@ function ShopLeft({ inputHandle }) {
       <div className="container">
         <div className="main">
           <div className="row mt-5">
-            <SideBar inputHandle={leftFilter} />
+            <SideBar inputHandle={leftFilter}
+            inputBrand={brandFilter}
+             />
             <div className="col-lg-9">
               {products.map((product) => (
                 <ListFrame

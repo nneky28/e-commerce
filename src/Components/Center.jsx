@@ -71,26 +71,6 @@ export default function Center() {
 
 {/* filter and map starts */}
 
-                    {/* {console.log('new length', products.filter((product)=>{ 
-                      return product.name.includes(text)
-                    }).length)}
-{
-                  products.filter((product)=>{ 
-                      return product.name.includes(text)
-                    })
-                   .map((product,index)=>{
-                    return
-                    (<Card key={product.id}
-                    product={product} color={product.color}
-                     size={product.size} id = {product.id}
-                      fav={product.favourites?.favourite}
-                       name={product.name} picture={product.picture_url1}
-                       price={product.price} sliced={Math.ceil(product.price-(product.slicedPercentage/100 * product.price))} 
-                       key={index} product ={product} />)
-                    
-                   })
-               }
-                 */}
 
                        
     {/* ends*/}

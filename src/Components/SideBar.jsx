@@ -1,7 +1,7 @@
 import React, { useEffect,  useState } from 'react'
 import './SideBar.css'
 
-function SideBar({inputHandle}) {
+function SideBar({inputHandle, inputBrand}) {
 
   const [category, setCategory] = useState([]);
   const [brand, setBrand] = useState([]);
@@ -65,7 +65,7 @@ useEffect(() => {
                        className="form-check-input"
                         type="checkbox"
                         value={item.id}
-                        onChange={inputHandle}
+                        onChange={inputBrand}
                         id="flexCheckDefault1" />
                     <label className="form-check-label p-1">{`${item.name}`} </label>
                     </li>

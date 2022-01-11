@@ -13,7 +13,7 @@ export default function Card({ id,picture, name, price, sliced, fav, product }) 
   return (
     <div className="col-lg-3 col-md-6 col-xs-12 mb-5 grid-box">
       <div class="car">
-      <img src={`http://127.0.0.1:2000/images/${ picture}`} alt="" className="card-img-top" onClick={handleSingle} />
+      <img src={`http://127.0.0.1:2000/images/${ picture}`} alt="" className="card-img-top img-responsive" onClick={handleSingle} />
 
         <div className="cart-icon">
           <i
